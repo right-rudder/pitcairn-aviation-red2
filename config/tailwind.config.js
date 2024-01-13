@@ -145,7 +145,7 @@ module.exports = {
         'landing' : "url('pitcairn-aviation-pottstown-pa.webp')",
         'repair' : "url('pitcairn-aviation-planes-on-field-KPTW.webp')",
         'airplanePA' : "url('PitcairnPA.webp')",
-        'flyplane' : "url('fly-plane.webp')",
+        'flyplane' : "url('pitcairn-sunset.webp')",
         'oldplane' : "url('old_plane.webp')",
         'pilotinfo' : "url('black-car-and-airplane-parked-outside.webp')",
         'coffeenow' : "url('coffee-and-newspaper-on-a-desk.webp')",
