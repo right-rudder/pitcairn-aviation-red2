@@ -143,7 +143,7 @@ module.exports = {
         'thumbs' : "url('thumbs-up-in-front-of-cessna.webp')",
         'behind' : "url('behind-pic.webp')",
         'landing' : "url('pitcairn-aviation-pottstown-pa.webp')",
-        'repair' : "url('repair-aviation.webp')",
+        'repair' : "url('pitcairn-aviation-planes-on-field-KPTW.webp')",
         'airplanePA' : "url('PitcairnPA.webp')",
         'flyplane' : "url('fly-plane.webp')",
         'oldplane' : "url('old_plane.webp')",
