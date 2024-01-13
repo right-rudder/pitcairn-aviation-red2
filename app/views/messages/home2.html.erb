@@ -1,0 +1,108 @@
+<%# Head / Meta Data %>
+<% title("Home | Pitcairn Aviation LLC") %>
+<% meta_description("Welcome to Pitcairn Aviation LLC, your trusted FBO at Heritage Field Airport (KPTW), serving the greater Pottstown, PA area. Discover end-to-end aviation services, from hangar rentals to full-service fueling. Contact us for seamless flight planning!") %>
+<% meta_keywords("Pitcairn Aviation LLC, FBO, fixed-base operator, Heritage Field Airport, KPTW, Pottstown, hangar rentals, full-service fueling, flight planning, aviation services, NW Philly, Pennsylvania") %>
+
+
+<%= render "shared/header" %>
+
+<header class="w-full bg-landing bg-cover h-screen-2/4 lg:h-screen-2/4 bg-center flex justify-center items-center  ">
+
+<section class="px-3 py-5  lg:py-10 font-header">
+    <div class="grid lg:grid-cols-2 items-center justify-items-center gap-5">
+        <div class="order-2 lg:order-1 flex flex-col justify-center items-center">
+            <p class="text-4xl font-bold md:text-7xl text-red-600">Welcome to </p>
+            <p class="text-4xl font-bold md:text-6xl uppercase text-red-600">Pitcairn Aviation</p>
+            <p class="mt-2 text-sm md:text-lg text-center">Your trusted Fixed-Base Operator at Heritage Field Airport (KPTW), serving the greater Pottstown, PA, area</p>
+            <button class="text-lg md:text-2xl bg-black text-white py-2 px-5 mt-10 hover:bg-red-600 rounded-xl"><%= link_to "Contact Us", 'contact',class: "hover:text-white"%></button>
+        </div>
+        <div class="order-1 lg:order-2">
+       
+        
+       
+        </div>
+    </div>
+</section>
+</header>
+
+<!--   body-->
+
+
+<!--fbo-->
+<section class="mt-20 justify-center items-center">
+<div class="relative overflow-hidden bg-white">
+    <div class="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+      <div class="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
+        <div class="sm:max-w-lg">
+          <h1 class="font text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">A Full-Service FBO </h1> <h1 class="font text-4xl font-bold tracking-tight  sm:text-6xl"><span class="text-red-700">for Your Fleet<span></h1>
+          <p class="mt-4 text-xl text-gray-700 text-justify">Coming from humble roots, Pitcairn Aviation LLC (formerly PennAirways) has evolved with the support of its valued clients to encompass end-to-end services for aircraft coming to and from Heritage Field Airport (KPTW). Pitcairn Aviation LLC’s FBO is here to help make your flight plans easy with hangar rentals, full-service fueling, on-site assistance, and business spaces.</p>
+
+         
+        </div>
+        <div class="mt=10">
+        <button class="btn-primary border border-white bg-black py-3 px-5 mt-10 hover:bg-red-600 text-xl text-white font-bold rounded-2xl" >
+        <%= link_to "Explore Our Services", 'services',class: "hover:text-white"%>
+        </button>
+        </div>
+        <div>
+          <div class="mt-10">
+            <!-- Decorative image grid -->
+            <div aria-hidden="true" class="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl">
+              <div class="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+                <div class="flex items-center space-x-6 lg:space-x-8">
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                    <%= image_tag "plane-pilot.webp" , class:"h-full w-full object-cover object-center"%>
+        
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <%= image_tag "plane-wings.webp" , class:"h-full w-full object-cover object-center"%>
+                    </div>
+                  </div>
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <%= image_tag "refill-gas.webp" , class:"h-full w-full object-cover object-center"%>
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <%= image_tag "meeting.webp" , class:"h-full w-full object-cover object-center"%>
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                     
+                    </div>
+                  </div>
+                  <div class="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <%= image_tag "plane-garage.webp" , class:"h-full w-full object-cover object-center"%>
+                    </div>
+                    <div class="h-64 w-44 overflow-hidden rounded-lg">
+                    <%= image_tag "plane-park.webp" , class:"h-full w-full object-cover object-center"%>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div class="mb-20">
+
+           
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- eee -->
+
+</section>
+
+
+
+<%= render "shared/footer"%>
+<!--Sticky div-->
+</div>
+
+
+
+
+
+
+
+
