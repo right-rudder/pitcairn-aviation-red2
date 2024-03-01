@@ -15,28 +15,19 @@ module.exports = {
         header: ['Kanit', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        /* Previous color scheme.. Blake said its too dark and not blue/light enough... uh huh ..
-        'custom-50': '#E3F1F6',
-        'custom-100': '#C7E3ED',
-        'custom-200': '#ABD4E4',
-        'custom-300': '#72B8D2',
-        'custom-400': '#3A9BC0',
-        'custom-500': '#1E8DB7',
-        'custom-600': '#135872',
-        'custom-700': '#0F475B',
-        'custom-800': '#0B3545',
-        'custom-900': '#07232E',
-        */
-        'custom-50': '#d0ebf4',
-        'custom-100': '#aec4cc',
-        'custom-200': '#90bccc',
-        'custom-300': '#60b3d7',
-        'custom-400': '#4299b8',
-        'custom-500': '#198eb8',
-        'custom-600': '#1780a6',
-        'custom-700': '#135b88',
-        'custom-800': '#0f4b6f',
-        'custom-900': '#08293d',
+        //  Custom color schemes
+        // 'custom-50': '#E3F1F6',
+        // 'custom-100': '#C7E3ED',
+        // 'custom-200': '#ABD4E4',
+        // 'custom-300': '#72B8D2',
+        // 'custom-400': '#3A9BC0',
+        // 'custom-500': '#1E8DB7', 
+         'custom-600': '#500000',  // "Maroon" per charles
+        // 'custom-700': '#0F475B',
+        // 'custom-800': '#0B3545',
+        // 'custom-900': '#07232E',
+
+        'red-950':  '#450a0a;',
       },
       keyframes: {
         'plane-enter': {
